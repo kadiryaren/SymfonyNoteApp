@@ -42,9 +42,7 @@
         "symfony/web-link": "5.2.*",
         "symfony/yaml": "5.2.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
-    },
-    "require-dev": {
+        "twig/twig": "^2.12|^3.0",
         "symfony/browser-kit": "^5.2",
         "symfony/css-selector": "^5.2",
         "symfony/debug-bundle": "^5.2",
@@ -54,6 +52,7 @@
         "symfony/var-dumper": "^5.2",
         "symfony/web-profiler-bundle": "^5.2"
     },
+   
     "config": {
         "optimize-autoloader": true,
         "preferred-install": {
@@ -63,14 +62,11 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
+            "App\\": "src/",
             "App\\Tests\\": "tests/"
         }
     },
+   
     "replace": {
         "symfony/polyfill-ctype": "*",
         "symfony/polyfill-iconv": "*",
