@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-div{
+    height: 70vh;
+}
+#login_email, #login_password{
+    width: 40vw;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #login_email, #login_password{
+        width: 80vw;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width: 6000px) {
+    #login_email, #login_password{
+        width: 20vw;
+    }
+}

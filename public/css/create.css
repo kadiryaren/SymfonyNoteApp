@@ -1,0 +1,37 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+footer{
+    position:relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.header{
+    width: 50vw !important ;
+    height: 10vh !important;
+}
+.article{
+    width: 50vw !important ;
+    height:20vh !important;
+
+}
+.main-div{
+    width: 100%;
+    height: 70vh;
+}
+label{
+    font-family: 'Work Sans', sans-serif;
+}
+textarea{
+    width: 30vw;
+    max-width: 600px !important;
+    min-width: 400px !important;
+    
+}

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*
+
+    START HERE 
+
+*/
+
+nav{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-div{
+    width: 100vw;
+    height: auto;
+}
+.second-div{
+  
+    width: 100vw;
+    height: auto;
+}
+.logo-span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 90px !important;
+    justify-content:center;
+    align-items: center;
+
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.bosdiv{
+    width: 150px;
+}
+.route{
+    width: 40%;
+    height: 5vh;
+    font-size: 2.5em;
+}
+
+/*
+
+    TO HERE!
+
+*/
+
+.main-div{
+    width: 98vw;
+    min-height: 70vh;
+}
+
+.each-post-header{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    top: 0;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 20px;
+
+}
+.lets-start{
+    width: 30vw;
+    min-width: 450px;
+    max-width: 600px;
+    height: 5vw;
+    max-height: 100px;
+    min-height: 100px;
+    font-size: 5vw;
+}
+#login_email, #login_email{
+    width: 30vw;
+    min-width: 350px !important;
+    max-width: 800px !important ;
+}
+
+.each-post-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    
+    
+    
+}
+.article-text{
+    padding: 0px 20px 20px 20px;
+}
+
+
+footer{
+    position:relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #logo{
+        width: 50px;
+        height: 50px;
+    }
+    .navbar-brand{
+        font-size: 1.5em;
+    }
+    .navbar{
+        height: 4em;
+    }
+    
+}
