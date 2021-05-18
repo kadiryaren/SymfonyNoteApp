@@ -41,7 +41,7 @@ class Post
     private $color;
 
     /**
-     * @ORM\Column(type="string", length=10)
+     * @ORM\Column(type="string", length=30)
      */
     private $text_align;
 
